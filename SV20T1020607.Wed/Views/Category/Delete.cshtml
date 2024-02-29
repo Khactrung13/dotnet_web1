@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Xóa loại hàng";
+}
+<h1>@ViewBag.Title</h1>
+<div class="box box-danger">
+    <div class="box-body">
+        <form action="#">
+            <div class="form-group">
+                <label>Tên loại hàng:</label>
+                <p class="form-control-static">Điện thoại</p>
+            </div>
+            <div class="form-group">
+                <label>Mô tả:</label>
+                <p class="form-control-static">Giá rẻ</p>
+            </div>
+
+            <div class="form-group">
+                <div class="col-lg-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-danger">
+                        <i class="fa fa-trash"></i>
+                        Xác nhận xóa dữ liệu
+                    </button>
+                    <a href="~/Category" class="btn btn-default">
+                        Quay lại
+                    </a>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+</div>
+
